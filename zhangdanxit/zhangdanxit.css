@@ -1,0 +1,34 @@
+.section1 tr td {
+    border: 1px solid black;
+}
+body {
+    background-color: white;
+}
+.section1 tr td,th {
+    text-align: center;
+}
+input[type="number"], input[type="datetime-local"], input[type="text"] {
+    background-color: white; /* 设置背景颜色为 */
+    color: black;
+    border:none;
+}
+input[type="text"] {
+    width: 100%; /* 输入框的宽度设置为父容器的宽度 */
+    box-sizing: border-box; /* 包含边框和内边距在宽度计算内 */
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.search-input {
+    margin-bottom: 10px;
+}
