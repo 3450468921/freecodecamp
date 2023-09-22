@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="stylesheet" content="width=device-width,initial-scele=1.0">
+    <title>Title</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #F3F2F2;
+    }
+    .shell {
+      display: flex;
+      height: 435px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 2px 6px -1px rgb(0, 0, 0, 0.3);
+      border-radius: 3;
+    }
+
+    .right {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 30px;
+    }
+
+    .left {
+      width: 200px;
+      height: auto;
+      background-size: cover;
+    }
+
+    .right h4 {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.4);
+      margin-bottom: 20px;
+    }
+
+    .right span {
+      color: #ABA0E6;
+    }
+
+    .right p {
+      max-width: 220px;
+      font: 400 14px'';
+      margin-bottom: 40px;
+    }
+
+    .email,
+    .password {
+      display: flex;
+      height: 56px;
+      width: 100%;
+    }
+
+    .inconfonnt {
+      font-size: 28px;
+      line-height: 56px;
+      margin-right: 5px;
+      color: #d8d8d8;
+    }
+
+    .right input {
+      border: none;
+      font-size: 16px;
+      width: 100%;
+      outline: none;
+      border-bottom: #ABA0E6 1px dotted;
+    }
+
+    .right button {
+      min-width: 100px;
+      border-radius: 24px;
+      text-align: center;
+      padding: 15px 40px;
+      background-color: #b08bf8;
+      color: #fff;
+      font-size: 14px;
+      margin-left: auto;
+      font-weight: 500;
+      box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.13);
+      border: none;
+      margin-top: 30px;
+    }
+
+    .right a {
+      text-align: right;
+      font-align: 10px;
+      color: #ABA0E6;
+      margin-top: 30px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="shell">
+  <div class="left"></div>
+  <div class="right">
+    <h4>We are<span>GOAD</span></h4>
+    <p>welcom to your arrival, login to you account to enter the page:</p>
+    <div class="email">
+      <i class="inconfonnt icon-email"></i>
+      <input type="email" placeholder="email">
+    </div>
+
+    <div class="password">
+      <i class="inconfonnt icon-mana"></i>
+      <input type="password" placeholder="text">
+    </div>
+    <button>Log in</button>
+    <a href="#">Go to Register</a>
+  </div>
+</div>
+
+</body>
+</html>
