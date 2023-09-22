@@ -44,9 +44,10 @@ option {
 
 .fenglei1, .fenglei2, .fenglei3 {
 
-    text-align: left;
+    text-align: center;
 
 }
+
 
 
 .xfenglei1 label, .xfenglei2 label, .xfenglei3 label {
@@ -59,25 +60,28 @@ option {
 
 
 .jvda {
-display: flex;
+    display: flex;
+    border-bottom: black solid 3px;
+    padding: 5px 0;
 }
 
 .dier {
 
-    width: 30%;
+    width: 50%;
     height: auto;
+border-right: black dashed 2px;
+    text-align: center;
 
 }
-.sanduanshi2 {
-    width: 10%;
-    border-left: black dashed 2px;
-    height: auto;
 
-}
+
+
 
 .sanduanshi3 {
     margin-top: 95px;
-    width: 60%;
+    height: 200px;
+    width: 50%;
+    text-align: center;
 }
 
 

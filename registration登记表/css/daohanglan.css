@@ -1,0 +1,20 @@
+.daohanglan {
+    color: #f6f1f1;
+    margin: 30px;
+    padding: 10px;
+    font-size: medium;
+    text-align: left;
+
+}
+.daohanglan ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px; /* 调整合适的间距大小 */
+}
+.daohanglan ul li {
+    border-bottom: 5px solid black;
+}
+.daohanglan a {
+    color: red;
+    text-decoration: none;
+}
