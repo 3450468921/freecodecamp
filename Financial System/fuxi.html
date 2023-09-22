@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="../css/dahuangshengmei.css">
+
+</head>
+<body>
+<div class="diyiduan">
+  <h1>今日主题</h1>
+  <p>用div元素对内容进行调整</p>
+</div>
+
+<div class="zongti">
+  <div class="dierduan">
+    <div class="shuipin">
+      <label for="shouru" class="radio-label1"><input type="radio" id="shouru" name="shouruyuzhichu"><span>收入</span></label>
+      <label for="zhichu" class="radio-label2"><input type="radio" id="zhichu" name="shouruyuzhichu"><span>支出</span></label>
+    </div>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">账户：
+          <select>
+            <option value=""></option>
+            <option value="1">招商银行</option>
+            <option value="2">汉口银行</option>
+          </select>
+        </label>
+        <label for="last-name">金额：<input class="diyizhong" id="last-name" name="last-name" type="number" required /></label>
+        <label for="name">交易对象: <input class="diyizhong" id="name" name="name" type="text" required /></label>
+        <label for="na">描述: <input class="diyizhong" id="name" name="na" type="text" required /></label>
+      </fieldset>
+
+
+      <div class="jvda">
+        <fieldset class="dier">
+          <h2>分类</h2>
+          <div class="fenglei1">
+            <label for="personal-account" ><input id="personal-account" type="radio" name="account-type" class="inline" /> 车辆</label>
+          </div>
+
+          <div class="fenglei2">
+            <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> 餐饮&外出就餐</label>
+          </div>
+
+
+          <div class="fenglei3">
+            <label for="jiaotong"><input id="jiaotong" type="radio" name="account-type" class="inline" />交通</label>
+          </div>
+
+          <label for="terms-and-conditions">
+            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> 我同意 <a href="https://www.freecodecamp.org/news/terms-of-service/">服务与条款</a>
+          </label>
+
+
+        </fieldset>
+        <div class="sanduanshi3">
+          <div class="xfenglei1">
+            <label for=""><input type="checkbox" name="" id="">维修</label>
+            <label for=""><input type="checkbox" name="" id="">过路费</label>
+            <label for=""><input type="checkbox" name="" id="">汽车保险</label>
+          </div>
+          <div class="xfenglei2">
+            <label for=""><input type="checkbox" name="" id="">早餐</label>
+            <label for=""><input type="checkbox" name="" id="">午餐</label>
+            <label for=""><input type="checkbox" name="" id="">晚餐</label>
+          </div>
+          <div class="xfenglei3">
+            <label for=""><input type="checkbox" name="" id="">火车</label>
+            <label for=""><input type="checkbox" name="" id="">高铁</label>
+            <label for=""><input type="checkbox" name="" id="">飞机</label>
+          </div>
+        </div>
+      </div>
+
+      <fieldset>
+        <label for="profile-picture">相关文件: <input class="diyizhong" id="profile-picture" type="file" name="file" /></label>
+        <label for="age">输入你的年龄: <input class="diyizhong" id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">你是怎么知道关于我们的?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">抖音</option>
+            <option value="2">YouTube</option>
+            <option value="3">快手</option>
+            <option value="4">其它</option>
+          </select>
+        </label>
+        <label for="bio">你的相关建议:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="你的建议，就是我努力的动力"></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+  <div class="disanduan">
+    <fieldset class="body">
+      <div class="menu">
+        <main>
+          <h1 class="h1">吃&喝&玩&乐</h1>
+          <p class="established">Est. 2020</p>
+          <hr>
+          <section>
+            <h2 class="h2">喝</h2>
+            <img class="img" src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+            <article class="item">
+              <p class="flavor">西瓜汁</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+              <p class="flavor">橙汁</p><p class="price">3.75</p>
+            </article>
+            <article class="item">
+              <p class="flavor">可乐</p><p class="price">3.50</p>
+            </article>
+            <article class="item">
+              <p class="flavor">凉茶</p><p class="price">4.00</p>
+            </article>
+            <article class="item">
+              <p class="flavor">脉动</p><p class="price">4.50</p>
+            </article>
+          </section>
+          <section>
+            <h2 class="h2">吃</h2>
+            <img class="img" src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+            <article class="item">
+              <p class="dessert">方便面</p><p class="price">1.50</p>
+            </article>
+            <article class="item">
+              <p class="dessert">面包</p><p class="price">2.75</p>
+            </article>
+            <article class="item">
+              <p class="dessert">鸡腿</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+              <p class="dessert">薯片</p><p class="price">2.50</p>
+            </article>
+          </section>
+        </main>
+        <hr class="bottom-line">
+        <footer class="footer">
+          <p>
+            <a href="https://www.freecodecamp.org" target="_blank" class="a">欢迎前来体验</a>
+          </p>
+          <p class="address">to drink and to eat</p>
+        </footer>
+      </div>
+    </fieldset>
+  </div>
+</div>
+</body>
+</html>

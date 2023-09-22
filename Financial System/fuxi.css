@@ -1,0 +1,271 @@
+.zongti {
+    margin-top: 150px;
+    width: 100%;
+
+}
+.dierduan {
+    width: 50%;
+    margin-top: 5px;
+    position: absolute;
+}
+
+
+
+.disanduan {
+    width: 50%;
+    margin-left: 50%;
+    height: auto;
+    position: absolute;
+}
+
+.diyiduan {
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    margin-right: -900px;
+    margin-left: 550px;
+    height: 150px;
+    display: flex;
+    position: relative;
+}
+
+.shuipin {
+    text-align: left;
+    margin:0 115px;
+}
+select {
+    background-color: #0a0a23;
+    color: white;
+}
+option {
+    width: auto;
+    height: auto;
+}
+
+.fenglei1, .fenglei2, .fenglei3 {
+
+    text-align: left;
+
+}
+
+
+.xfenglei1 label, .xfenglei2 label, .xfenglei3 label {
+    margin-left:auto ;
+    width:auto;
+    text-align:left;
+    display: inline-block;
+}
+
+
+
+.jvda {
+display: flex;
+}
+
+.dier {
+
+    width: 30%;
+    height: auto;
+
+}
+.sanduanshi2 {
+    width: 10%;
+    border-left: black dashed 2px;
+    height: auto;
+
+}
+
+.sanduanshi3 {
+    margin-top: 95px;
+    width: 60%;
+}
+
+
+
+.body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    height: auto;
+    right: 0;
+
+}
+
+.h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+.h1, .h2, p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+.h1, .h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER */
+
+.footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+
+
+
+
+body {
+    width: auto;
+    margin: auto;
+    background-color: gray;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    display: flex;
+}
+
+h1, p {
+    margin: 2em auto;
+    text-align: center;
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+    position: relative;
+}
+
+.radio-label1 {
+    position: absolute;
+    left: 120px;
+    font-size: x-large;
+}
+.radio-label2 {
+    position: absolute;
+    right: 120px;
+    font-size: x-large;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.diyizhong,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.diyizhong, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
