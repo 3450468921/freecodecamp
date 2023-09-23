@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(35, 28, 26, 0.8);/*这个是设置了导览列的透明度*/
+    height: 80px;
+    width: 100%;
+    /*position: relative;一开始设计的是这样子，但是后面我希望他可以在我视窗向下滚动时导览列会固定在银幕上方*/
+    position: fixed;/*这个是固定的意思，有了这个，当我们滚动屏幕时，导览列就会跟着一起了*//*不过要注意，当我们设置成fixed后整个版面会向上偏移，递补导览列原先所占的空间，要保持原样就要调整“.news的height”和“.news h2的margin-top”
+    /*分为相对（relative）和绝对（absolute）这两种，使用相对时，元素会从原本的位置开始移动*/
+}
+
+header ul {
+    position: absolute;/*从版面（父元素）的左上角开始计算，*/
+    right: 15vw;
+    top: 0;
+    line-height: 80px;/*本行与上一行和下一行的间距*/
+    color: white;
+    font-size: 20px;
+}
+
+header li {
+    display: inline;/*由于导览列的li标签是区块元素，所以每个链接都会独占一整行，呈现上下相叠的状态，所以我就使用display把他转成行内元素，让导览列变成横式的排列*/
+    margin-right: 6vw;/*同时加大每个按钮的右边距 ，这里有一个相对单位vw（viewport width），这里代表的是视窗宽度的4% ，使用相对单位的好处是当视窗的大小发生改变时，vw的宽度也会配合视窗宽度的大小进行改变 */
+}
+
+header a {
+    color: white;
+    text-decoration: none;/*这个是用了清理导览列文字（就是最新消息那几个）下面的链接语法所剩下了的底线*/
+}/*这是<header>元素里面所有的a标签*/
+
+header a:hover {
+    text-decoration: underline;/*这个就是让我的鼠标移动到导览列文字时出现下面的底线*/
+}
+
+body {
+    background-color: white;
+}
+
+section {
+    background-color: antiquewhite;
+}
+
+
+
+
