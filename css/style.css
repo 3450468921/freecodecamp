@@ -35,6 +35,20 @@ header a:hover {
     text-decoration: underline;/*这个就是让我的鼠标移动到导览列文字时出现下面的底线*/
 }
 
+.news {
+    color: black;
+    height: 95vw;
+    display: flex;/*这个使元素区块中的子元素全部在一排里面横着排放*/
+    flex-direction: column;/*因为上面的语法使子元素全部横着排放，如果想让子元素纵向堆叠，则使用这个语法，这个语法的意思是flex方向为column（栏）*/
+    align-items: center;/*使子元素水平对齐为中央*/
+    justify-content: center;/*垂直对齐也是中央*/
+}
+
+.news h2 {
+    font-size: 60px;
+    margin-top: 100px;/*一开始这个是没有的，因为header从relativ改成了fiexd*，具体原因可以去header那里看*/
+}
+
 body {
     background-color: white;
 }
