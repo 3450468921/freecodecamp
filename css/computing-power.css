@@ -82,7 +82,3 @@ span {
     font-size: 30px;
 }
 
-.history img {
-    background-size: cover;/*但是，使用上面的语法后又会导致边框拼接的部分没有显示，因此，使用这个命令调整图片的大小*/
-    background-position: center;/*上面的一个语法虽然让图片填满了整个容器，但同时也可能会超过容器的边界，因此把图片置中与整个区块*/
-}

@@ -35,20 +35,7 @@ header a:hover {
     text-decoration: underline;/*这个就是让我的鼠标移动到导览列文字时出现下面的底线*/
 }
 
-.news {
-    color: black;
-    height: 55vw;
-    display: flex;/*这个使元素区块中的子元素全部在一排里面横着排放*/
-    flex-direction: column;/*因为上面的语法使子元素全部横着排放，如果想让子元素纵向堆叠，则使用这个语法，这个语法的意思是flex方向为column（栏）*/
-    align-items: center;/*使子元素水平对齐为中央*/
-    justify-content: center;/*垂直对齐也是中央*/
-    border-bottom: 3px solid black;
-}
 
-.news h2 {
-    font-size: 60px;
-    margin-top: 60px;/*一开始这个是没有的，因为header从relativ改成了fiexd*，具体原因可以去header那里看*/
-}
 
 .computing-power {
 display: flex;
@@ -176,5 +163,54 @@ section {
 }
 
 
+.news {
+    overflow: hidden; /* 隐藏超出部分 */
+    border-right: .15em solid orange; /* 光标效果 */
+    white-space: nowrap; /* 防止换行 */
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .15em; /* 字符间距 */
+    
+  }
 
+  /* 打字动画试验地 */
+  .news {
+    display: inline-block;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+
+  .news h2 {
+    font-size: 60px;
+  }
+
+  /* 打字动画关键帧 */
+  @keyframes typing {
+    from {
+      width: 0; /* 文本宽度为0，即隐藏 */
+    }
+    to {
+      width: 100%; /* 文本宽度为100%，完全显示 */
+    }
+  }
+
+  /* 光标闪烁动画 */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent; /* 光标透明 */
+    }
+    50% {
+      border-color: antiquewhite; /* 光标颜色 */
+    }
+  }
+
+  .typewriter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+    background-color: antiquewhite;
+    padding-top: 300px;
+  }
 
