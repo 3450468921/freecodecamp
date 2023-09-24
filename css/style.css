@@ -42,7 +42,7 @@ header a:hover {
     flex-direction: column;/*因为上面的语法使子元素全部横着排放，如果想让子元素纵向堆叠，则使用这个语法，这个语法的意思是flex方向为column（栏）*/
     align-items: center;/*使子元素水平对齐为中央*/
     justify-content: center;/*垂直对齐也是中央*/
-    
+    border-bottom: 3px solid black;
 }
 
 .news h2 {
@@ -87,6 +87,7 @@ border-bottom: 3px solid black;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-bottom: 3px solid black;
 }
 
 .history h2 {
@@ -96,6 +97,18 @@ border-bottom: 3px solid black;
     border-left: 3px black solid;
     padding: 0 20px;
     margin-bottom: 30px;
+    
+}
+
+.history div h3 {/*因为div相当于切断了h3与.history的命令，因此。history的命令h3应用不到，所以要把.history的命令单独引下来*/
+    margin-top: 60px;
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .history  p {
@@ -129,6 +142,29 @@ border-bottom: 3px solid black;
     border-left: 3px black solid;
     padding: 0 20px;
     margin-bottom: 30px;
+}
+
+.technology {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.technology h2 {
+    font-size: 60px;
+    margin-top: 60px;
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.technology img {
+    background-size: cover;/*但是，使用上面的语法后又会导致边框拼接的部分没有显示，因此，使用这个命令调整图片的大小*/
+    background-position: center ;/*上面的一个语法虽然让图片填满了整个容器，但同时也可能会超过容器的边界，因此把图片置中与整个区块*/
+    margin-top: 25px;
+    width: 100%;
 }
 
 body {
