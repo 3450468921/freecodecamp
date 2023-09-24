@@ -5,3 +5,16 @@ body {
 section {
     background-color: antiquewhite;
 }
+
+.graphic {
+    display: flex;
+}
+
+.graphic img {
+    width: 50%;
+}
+
+.introduction {
+    width: 59%;
+    align-items: center;
+}
