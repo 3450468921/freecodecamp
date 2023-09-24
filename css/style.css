@@ -82,10 +82,53 @@ border-bottom: 3px solid black;
     margin-top: 20px;
 }
 
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.history h2 {
+    font-size: 60px;
+    margin-top: 60px;
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.history  p {
+    font-size: 30px;
+}
+
 .history img {
     background-size: cover;/*但是，使用上面的语法后又会导致边框拼接的部分没有显示，因此，使用这个命令调整图片的大小*/
     background-position: center ;/*上面的一个语法虽然让图片填满了整个容器，但同时也可能会超过容器的边界，因此把图片置中与整个区块*/
     width: 100%;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.figure img {
+    background-size: cover;/*但是，使用上面的语法后又会导致边框拼接的部分没有显示，因此，使用这个命令调整图片的大小*/
+    background-position: center ;/*上面的一个语法虽然让图片填满了整个容器，但同时也可能会超过容器的边界，因此把图片置中与整个区块*/
+    width: 50%;
+    margin-top: 25px;
+}
+
+.figure h2 {
+    font-size: 60px;
+    margin-top: 60px;
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    padding: 0 20px;
+    margin-bottom: 30px;
 }
 
 body {
