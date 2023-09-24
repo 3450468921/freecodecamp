@@ -55,9 +55,10 @@ border-bottom: 3px solid black;
 }
 
 .computing-power p {
-    font-size: 22px;
+    font-size: 55px;
     margin: 20px 0;
     border-bottom:3px black solid ;
+    font-weight: bold;
 }
 
 .computing-power a {
@@ -67,6 +68,11 @@ border-bottom: 3px solid black;
     border-radius: 5px;
     color: black;
     margin-top: 20px;
+}
+
+.computing-power p span {
+    font-size: 25px;
+    padding-left: 10px;
 }
 
 .history {
@@ -176,7 +182,7 @@ section {
   /* 打字动画试验地 */
   .news {
     display: inline-block;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
   }
 
   .news h2 {
@@ -189,7 +195,7 @@ section {
       width: 0; /* 文本宽度为0，即隐藏 */
     }
     to {
-      width: 100%; /* 文本宽度为100%，完全显示 */
+      width: 47%; /* 文本宽度为100%，完全显示 */
     }
   }
 
