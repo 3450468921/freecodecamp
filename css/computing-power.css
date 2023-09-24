@@ -61,3 +61,23 @@ span {
 .introduction p {
     font-size: 30px;
 }
+
+.GDS-territory {
+    display: flex;
+}
+
+.info {
+    width: 50%;
+}
+
+.GDS-territory img {
+    width: 50%;
+}
+
+.GDS-territory h2 {
+    font-size: 60px;
+}
+
+.GDS-territory p {
+    font-size: 30px;
+}
