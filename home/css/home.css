@@ -1,0 +1,108 @@
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #e2ebf2;
+}
+h2 {
+    font-size: medium;
+    color: black;
+}
+p {
+    margin: 10px;
+    color: #e2ebf2;
+}
+.all {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    flex-direction: column; /* 设置为垂直方向排列 */
+}
+.all h1,.all ul {
+    text-align: left; /* 文本内容左对齐 */
+}
+
+
+.card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+.tansuo {
+    background-color: white;
+    display: flex;
+
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+.container {
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+input {
+    margin: 10px;
+
+}
+fieldset {
+    border: none;
+}
+.section1 li {
+    border-bottom: 10px solid black;
+}
+
+.tansuo {
+    background-color: white;
+    border-radius: 14px;
+    color: #000;
+}
+.zhuhe1 {
+    width: auto;
+    border-radius: 10px;
+    border-left: none;
+    display: flex;
+
+}
+input {
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: auto;
+}
+h2 {
+    color: black;
+}
+body {
+    background-color: skyblue;
+}
+.section1 li a {
+    border-bottom: black solid 3px;
+    color: black;
+}
